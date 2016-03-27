@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: net.srirangan.packt.maven.sample.value.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec <<< FAILURE! - in net.srirangan.packt.maven.sample.value.AppTest
+testApp(net.srirangan.packt.maven.sample.value.AppTest)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at net.srirangan.packt.maven.sample.value.AppTest.testApp(AppTest.java:17)
+

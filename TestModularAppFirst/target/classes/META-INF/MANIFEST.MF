@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1459065512839
+Build-Jdk: 1.7.0_71
+Built-By: kiran
+Bundle-Description: Guava, commons-*, logging, ...
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: TestModularAppFirst
+Bundle-SymbolicName: net.srirangan.packt.maven.sample.TestModularAppFirs
+ t
+Bundle-Version: 1.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: net.srirangan.packt.maven.sample.value;uses:="javax.anno
+ tation,com.google.common.base,org.slf4j";version="1.1.0.SNAPSHOT"
+Import-Package: com.google.common.base;version="[16.0,17)",javax.annotat
+ ion,org.slf4j;version="[1.7,2)"
+Originally-Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-1.50.0

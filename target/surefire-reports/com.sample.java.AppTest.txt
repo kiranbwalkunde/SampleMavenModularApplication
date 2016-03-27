@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.sample.java.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec <<< FAILURE! - in com.sample.java.AppTest
+testApp(com.sample.java.AppTest)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at com.sample.java.AppTest.testApp(AppTest.java:17)
+
